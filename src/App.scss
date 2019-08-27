@@ -1,0 +1,42 @@
+body {
+  margin:0px;
+  padding: 0px;
+  font-size: 100%;
+  font-family: cursive;
+}
+ul {
+  margin: 20px 10px;
+  padding: 0px;
+  li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px 0 0;
+
+    a {
+      background: #F5F5F5;
+      color: #551A8B;
+      text-decoration: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      border: 1px solid #F5F5F5;
+      font-weight: bold;
+      font-size: 75%;
+      &.active {
+        color: #FF0000;
+      }
+
+    }
+  }
+}
+
+.content {
+  margin: 20px 10px;
+
+  h1 {
+    font-size: 200%;
+  }
+}
+
+div[id^="bpmnContainer"] {
+  height: 180px;
+}
